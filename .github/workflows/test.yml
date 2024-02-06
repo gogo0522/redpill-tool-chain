@@ -24,10 +24,10 @@ jobs:
       matrix:
         include:
           #  两行一组，删除不需要的版本
-          - platform: ds1621p
+          - platform: ds120j
             version: 7.0.1-42218
-          - platform: ds1621p
-            version: 7.1.0-42661
+          - platform: ds120j
+            version: 7.2.1-69057
 
           - platform: ds2422p
             version: 7.0.1-42218
